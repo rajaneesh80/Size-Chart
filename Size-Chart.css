@@ -1,0 +1,40 @@
+
+ ul{
+	    width: 100%;
+         max-width: 1020px;
+	    margin: 0 auto;
+		padding: 0;
+		display: block;
+		z-index:999;
+     background-color:antiquewhite;
+	 }
+
+li {
+	display:inline-block;
+	position: relative;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+	background-color: #ccc;
+	width:15%;
+    max-width: 200px;
+	text-align: center;
+	padding: 10px 0px;
+     margin: 0 auto;
+	}
+	
+	.li ul {
+	display: none;
+	position: absolute;
+
+	}
+	.li:hover ul {
+    display: block;
+	}
+	
+  a {
+  text-decoration: none;
+ }
+ a:hover {
+  background-color: yellow;
+ }
